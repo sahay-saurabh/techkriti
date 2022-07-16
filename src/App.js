@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+import Navbar from './Componenets/Navbar'
+import Footer from './Componenets/Footer'
+import Card from './Componenets/Card'
+import Header from './Componenets/Header'
 function App() {
+  const styel={
+    // backgroundImage:"url('bg.jpeg')"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styel} className="App">
+     <Navbar/>
+     <Header/>
+     <Card/>
+     <Footer/>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.social-icon{
+    font-size: 1.5rem;
+    margin: 1% 1.5%;
+    color: #fff;
+}
+.social-icon:hover{
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.footer{
+    background-color: #000;
+}
+
+#fb:hover{
+    color:#4267B2;
+}
+#yt:hover{
+    color:#FF0000;
+}
+#li:hover{
+    color:#0072b1;
+}
+#tw:hover{
+    color:#1DA1F2;
+}
+#ig:hover{
+    color:#E1306C;
+}
